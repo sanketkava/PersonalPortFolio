@@ -1,0 +1,25 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M50 5L10 27.5V72.5L50 95L90 72.5V27.5L50 5Z" stroke="url(#paint0_linear_42_2)" stroke-width="5"/>
+<path d="M50 5L10 27.5L50 50L90 27.5L50 5Z" fill="url(#paint1_linear_42_2)"/>
+<path d="M10 27.5V72.5L50 95V50L10 27.5Z" fill="url(#paint2_linear_42_2)"/>
+<path d="M90 27.5V72.5L50 95V50L90 27.5Z" fill="url(#paint3_linear_42_2)"/>
+<text x="50" y="60" font-family="Arial, sans-serif" font-size="30" fill="white" text-anchor="middle" font-weight="bold">R</text>
+<defs>
+<linearGradient id="paint0_linear_42_2" x1="50" y1="5" x2="50" y2="95" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3B82F6"/>
+<stop offset="1" stop-color="#10B981"/>
+</linearGradient>
+<linearGradient id="paint1_linear_42_2" x1="50" y1="5" x2="50" y2="50" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3B82F6" stop-opacity="0.7"/>
+<stop offset="1" stop-color="#10B981" stop-opacity="0.7"/>
+</linearGradient>
+<linearGradient id="paint2_linear_42_2" x1="10" y1="50" x2="50" y2="50" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3B82F6" stop-opacity="0.5"/>
+<stop offset="1" stop-color="#10B981" stop-opacity="0.5"/>
+</linearGradient>
+<linearGradient id="paint3_linear_42_2" x1="50" y1="50" x2="90" y2="50" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3B82F6" stop-opacity="0.6"/>
+<stop offset="1" stop-color="#10B981" stop-opacity="0.6"/>
+</linearGradient>
+</defs>
+</svg>
