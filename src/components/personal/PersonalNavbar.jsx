@@ -55,7 +55,11 @@ const PersonalNavbar = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link to="/" className="flex items-center space-x-2.5 group">
-            {/* <img src="/personal-logo.svg" alt="Sanket Kava Logo" className="h-11 w-11 transition-transform duration-300 group-hover:scale-105" /> */}
+<img
+  src="/logo.jpg"
+  alt="Sanket Kava Logo"
+  className="h-11 w-11 rounded-xl transition-transform duration-300 group-hover:scale-105"
+/>
             <span className={`text-2xl font-bold text-gradient-personal transition-colors duration-300 group-hover:brightness-110`}>
               Sanket Kava
             </span>

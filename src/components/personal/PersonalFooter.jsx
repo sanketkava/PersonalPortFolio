@@ -56,13 +56,13 @@ const PersonalFooter = () => {
             className="flex flex-col items-center md:items-start"
           >
             <Link to="/" onClick={scrollToTop} className="flex items-center space-x-3.5 mb-4.5 group">
-              {/* <motion.img 
-                src="/personal-logo.svg" 
+              <motion.img 
+                src="/logo.jpg" 
                 alt="Sanket Kava Logo" 
-                className="h-12 w-12"
+                className="h-12 w-12 rounded-2xl"
                 whileHover={{ scale: 1.08, rotate: 3 }}
                 transition={{type: "spring", stiffness: 250}}
-              /> */}
+              />
               <span className="text-2xl font-bold text-gradient-personal group-hover:brightness-115 transition-all duration-200">Sanket Kava</span>
             </Link>
             <p className="text-center md:text-left text-sm max-w-xs leading-relaxed">
