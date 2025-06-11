@@ -1,0 +1,60 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+.vite/
+.next/
+out/
+coverage/
+
+# Local env files
+.env
+.env.*.local
+
+# Logs
+logs
+*.log
+*.tsbuildinfo
+
+# Editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional lockfiles (choose based on what you use)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Optional: if you're using Tailwind JIT or postcss cache
+.postcssrc.js
+.tailwind.config.js
+
+# Optional: Testing
+coverage/
+jest.config.js
+*.test.js
+*.spec.js
+
+# Optional: Typescript cache
+*.tsbuildinfo
+
+# Optional: Linting/Prettier
+.eslintcache
+.prettierignore
+
+# Optional: Storybook
+storybook-static/

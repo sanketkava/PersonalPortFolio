@@ -100,7 +100,7 @@ const PersonalContact = () => {
   };
 
   const contactMethods = [
-    { icon: <Mail className="h-5 w-5 text-accent-fg" />, label: "Email", value: "sanket@rakshastack.com", href: "mailto:sanketkava.dev@gmail.com" },
+    { icon: <Mail className="h-5 w-5 text-accent-fg" />, label: "Email", value: "sanket@rakshastack.com", href: "mailto:sanket@rakshastack.com" },
     { icon: <Phone className="h-5 w-5 text-accent-fg" />, label: "Phone", value: "+91 9978677047", href: "tel:+919978677047" },
   ];
 
