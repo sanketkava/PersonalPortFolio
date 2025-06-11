@@ -17,7 +17,7 @@ const PersonalAbout = () => {
   const mySkills = [
     "HTML5", "CSS3", "JavaScript (ES6+)", "React.js", "Node.js", "Express.js", "MongoDB",
     "PHP", "Java", "C++", "Python", "MySQL", "React Native", "Git & GitHub", "Redux Toolkit", "Tailwind CSS",
-    "Cybersecurity Fundamentals", "Ethical Hacking Basics by ", "Network Security Concepts by ", "Vulnerability Assessment"
+    "Cybersecurity ", "Ethical Hacking  ", "Network Security Concepts ", "Vulnerability Assessment"
   ];
 
   const timelineEvents = [
@@ -25,7 +25,13 @@ const PersonalAbout = () => {
       year: "2022 - 2025",
       title: "B.Sc. in Information Technology",
       institution: "K.S. School Of Business Management",
-      description: "Sanket Kava is pursuing a Bachelor’s degree, focusing on software engineering, database systems, network security, and cybersecurity principles, building a strong foundation in secure IT practices."
+      description: "Sanket Kava is Completed a Bachelor’s degree, focusing on software engineering, database systems, network security, and cybersecurity principles, building a strong foundation in secure IT practices."
+    },
+      {
+      year: "2023 - 2024",
+      title: "Diploma in Ethical Hacking & Cybersecurity",
+      institution: "Cyber Octet",
+      description: "Sanket Kava is pursued a Diploma degree , learned a CyberSecurity , Vulnerability Assessment Penetration Testing  and Ethical Hacking."
     },
     {
       year: "Ongoing",
