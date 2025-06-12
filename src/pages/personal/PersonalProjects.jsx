@@ -177,8 +177,31 @@ const PersonalProjects = () => {
   "tags": ["React Native", "Expo", "Firebase (Backend)", "Redux", "Mobile UI/UX", "Stripe API", "API Integration"],
   "liveLink": "#",
   "repoLink": "#"
+},
+{
+  id: 7,
+  title: "Advanced Web Vulnerability Scanner",
+  category: "Cyber Security",
+  imageUrl: "./avs.png",
+  shortDescription: "A tool to scan web applications for vulnerabilities like SQL Injection and XSS.",
+  longDescription: "This Advanced Web Vulnerability Scanner, built with Python and OWASP ZAP, automates the detection of common web application vulnerabilities such as SQL Injection, Cross-Site Scripting (XSS), and misconfigurations. Features include a user-friendly CLI interface, automated scanning of target URLs, detailed vulnerability reports with remediation suggestions, and integration with a SQLite database for storing scan results. The tool supports ethical hacking practices and is designed for educational use in controlled environments.",
+  tags: ["Python", "OWASP ZAP", "Burp Suite", "Web Application Security", "Vulnerability Assessment", "SQL Injection", "XSS", "SQLite"],
+  liveLink: "#",
+  repoLink: "#"
+},
+{
+  id: 8,
+  title: "Ransomware Simulator",
+  category: "Cyber Security",
+  imageUrl: "./ransomware.png",
+  shortDescription: "A controlled ransomware simulation to study encryption and decryption techniques.",
+  longDescription: "This Ransomware Simulator, developed in Python for educational purposes, demonstrates ransomware behavior by encrypting files with AES-256 and providing a decryption mechanism. Features include a controlled environment for simulating file encryption, a user-friendly CLI for testing, secure key storage, and detailed logs of encryption/decryption processes. The project is designed to teach ransomware countermeasures and recovery techniques, such as those used in tools like Emsisoft Decryptor, without causing harm.",
+  tags: ["Python", "PyCryptodome", "AES-256", "Ransomware", "Cybersecurity", "Ethical Hacking", "File Encryption"],
+  liveLink: "#",
+  repoLink: "#"
 }
  ];
+ 
 
   const filters = ["All", "Web Development", "Mobile Development", "Cyber Security"];
   const filterIcons = { "All": <Layers />, "Web Development": <Code />, "Mobile Development": <Smartphone />, "Cyber Security": <Palette /> };
