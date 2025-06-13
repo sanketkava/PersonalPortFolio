@@ -12,6 +12,8 @@ import PersonalSkills from '@/pages/personal/PersonalSkills';
 import PersonalContact from '@/pages/personal/PersonalContact';
 import { AnimatePresence } from 'framer-motion';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/react"
+
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -27,6 +29,7 @@ function AnimatedRoutes() {
         <Route path="/contact" element={<PersonalContact />} />
       </Routes>
       <Analytics />
+      <SpeedInsights />
     </AnimatePresence>
     
   );
