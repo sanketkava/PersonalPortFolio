@@ -21,6 +21,8 @@
     "@radix-ui/react-toast": "^1.1.5",
     "@react-three/fiber": "^8.16.8",
     "@tailwindcss/typography": "^0.5.10",
+    "@vercel/analytics": "^1.5.0",
+    "analytics": "github:vercel/analytics",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "framer-motion": "^10.16.4",

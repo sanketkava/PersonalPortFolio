@@ -11,19 +11,24 @@ import PersonalProjects from '@/pages/personal/PersonalProjects';
 import PersonalSkills from '@/pages/personal/PersonalSkills';
 import PersonalContact from '@/pages/personal/PersonalContact';
 import { AnimatePresence } from 'framer-motion';
+import { Analytics } from '@vercel/analytics/react';
 
 function AnimatedRoutes() {
   const location = useLocation();
   return (
     <AnimatePresence mode="wait">
+      
       <Routes location={location} key={location.pathname}>
+      
         <Route path="/" element={<PersonalHome />} />
         <Route path="/about" element={<PersonalAbout />} />
         <Route path="/projects" element={<PersonalProjects />} />
         <Route path="/skills" element={<PersonalSkills />} />
         <Route path="/contact" element={<PersonalContact />} />
       </Routes>
+      <Analytics />
     </AnimatePresence>
+    
   );
 }
 
